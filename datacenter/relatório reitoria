@@ -5,40 +5,41 @@
 - **Curso**: Tecnologia em Análise e Desenvolvimento de Sistemas (TADS)  
 - **Instituição**: Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte - Campus Natal-Central (IFRN - CNAT)  
 - **Professor**: [Leonardo A. Minora](https://github.com/leonardo-minora)  
-- **Local da Visita Técnica**: Departamento de Tecnologia da Informação (DTI) do IFRN  
+- **Local da Visita Técnica**: Reitoria do IFRN  
 - **Aluno**: Wesley Costa  
 
 ---
 
 ## Introdução  
 
-### O que é o IFRN?  
-O Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte (IFRN) é uma instituição de ensino pública que oferece cursos técnicos, de graduação e pós-graduação em diversas áreas do conhecimento, com foco na formação tecnológica e científica.  
+### O que é a Reitoria do IFRN?  
+A Reitoria do Instituto Federal do Rio Grande do Norte (IFRN) é o órgão responsável pela gestão administrativa e acadêmica de todos os campi da instituição. Ela centraliza as decisões e o desenvolvimento de sistemas institucionais, garantindo a integração e modernização dos serviços oferecidos aos alunos, professores e servidores.
 
-### O que é um Datacenter?  
-Um datacenter é um ambiente projetado para armazenar, processar e distribuir grandes volumes de dados, garantindo segurança e disponibilidade. Ele abriga servidores, sistemas de armazenamento, equipamentos de redes e outros dispositivos essenciais para o funcionamento de serviços computacionais.  
+### O que é o SUAP?  
+O Sistema Unificado de Administração Pública (SUAP) é uma plataforma desenvolvida pelo IFRN para a gestão acadêmica e administrativa. Ele permite o gerenciamento de processos internos, matrículas, documentos, frequência de servidores e outros serviços fundamentais para o funcionamento da instituição.
 
 ### Qual o motivo da visita?  
-A visita teve como objetivo proporcionar aos alunos uma experiência prática sobre o funcionamento de um datacenter, explorando sua infraestrutura física, sistemas de segurança e os desafios envolvidos na sua manutenção.  
+A visita teve como objetivo conhecer o funcionamento da Reitoria do IFRN e entender como o SUAP é desenvolvido e mantido. Além disso, exploramos as tecnologias utilizadas na plataforma e as estratégias de segurança adotadas para proteger o sistema contra ameaças e ataques diários.
 
 ---
 
 ## Descrição da Visita  
-Durante a visita ao DTI do IFRN, tivemos a oportunidade de conhecer o datacenter da instituição e entender como ele é estruturado para garantir o funcionamento ininterrupto dos serviços de TI. Alguns dos principais aspectos abordados foram:  
+Durante a visita à Reitoria do IFRN, tivemos a oportunidade de conhecer o **diretor** responsável pelo desenvolvimento e suporte do SUAP, além de compreender os desafios envolvidos na manutenção de um sistema de grande porte. Os principais pontos abordados foram:
 
-- **Funcionamento do Datacenter**: Foi explicado como o datacenter gerencia dados e sistemas para suportar a infraestrutura digital do IFRN.  
-- **Custos de Manutenção**: Descobrimos que manter um datacenter operante envolve altos custos, especialmente relacionados a energia, climatização e equipamentos.  
-- **Segurança**: O local possui sistemas de controle rigorosos, incluindo monitoramento de acesso e um sistema de extinção de incêndios baseado em gás, que protege os equipamentos sem causar danos.  
-- **Energia e Backup**: O datacenter conta com baterias para manter o funcionamento em caso de quedas de energia, garantindo alta disponibilidade.  
-- **Armazenamento de Dados**: Utilizam HDs com backup na mesma máquina, garantindo redundância dos dados.  
-- **Virtualização**: Foi mencionado o uso de máquinas virtuais, facilitando a distribuição e gerenciamento dos recursos computacionais.  
-- **Sistemas Operacionais**: O datacenter utiliza alguma versão do Linux para administração dos servidores.  
-- **Climatização e Controle de Temperatura**: O ambiente conta com um sistema de ar-condicionado próprio, localizado dentro do datacenter, além de sistemas embarcados que regulam a temperatura, evitando superaquecimento dos equipamentos.  
-- **Infraestrutura Física**: O datacenter possui um piso elevado, por onde passam os cabos e fios, facilitando a organização e manutenção da infraestrutura.  
+- **Tecnologias Utilizadas**: O SUAP é desenvolvido utilizando a linguagem **Python** com o framework **Django**. Ele conta com um banco de dados **PostgreSQL** e é hospedado em servidores próprios do IFRN. Para a interface, utiliza tecnologias web como **HTML, CSS e JavaScript**.
+- **Infraestrutura e Escalabilidade**: O sistema é mantido em um ambiente robusto, com servidores configurados para lidar com um grande número de acessos simultâneos, garantindo alta disponibilidade e desempenho.
+- **Segurança e Proteção contra Ataques**: O **diretor** relatou que o SUAP recebe tentativas de ataques diariamente, incluindo tentativas de acesso não autorizado e ataques de negação de serviço (**DDoS**). Para mitigar essas ameaças, são adotadas diversas medidas, como:
+  - Uso de **firewalls** e monitoramento constante do tráfego.
+  - **Autenticação em dois fatores** para aumentar a segurança dos acessos.
+  - Atualizações e correção de **vulnerabilidades** de forma contínua.
+  - **Políticas de controle de acesso** para evitar acessos indevidos.
+- **Manutenção e Desenvolvimento Contínuo**: A equipe trabalha constantemente na melhoria do sistema, implementando novas funcionalidades e corrigindo problemas reportados pelos usuários. O **feedback** da comunidade acadêmica é fundamental para esse processo.
 
 ---
 
 ## Considerações Finais  
-A visita ao datacenter foi uma experiência enriquecedora, permitindo compreender na prática aspectos fundamentais da infraestrutura de TI. Embora eu nunca tivesse interesse específico nessa área, achei o funcionamento do datacenter muito interessante, principalmente a parte de climatização e controle térmico. No curso de TADS, normalmente não temos muito contato com hardware físico, e essa visita ajudou a preencher essa lacuna.  
+A visita à Reitoria do IFRN proporcionou uma compreensão aprofundada sobre o funcionamento do SUAP e a importância de sistemas institucionais seguros e bem estruturados. Foi interessante perceber a complexidade envolvida no desenvolvimento e na segurança de um sistema tão utilizado pelos alunos e servidores.
 
-Seria interessante se houvesse uma disciplina optativa relacionada a essa área, permitindo um aprofundamento maior para os alunos interessados. No geral, a experiência foi muito positiva e contribuiu significativamente para minha compreensão sobre datacenters e infraestrutura de TI.
+Mesmo sem ter um grande interesse prévio na área de **segurança da informação**, achei impressionante como o SUAP enfrenta desafios diários relacionados a **ataques e manutenção**. O contato com o **diretor** mostrou o impacto direto da tecnologia na gestão acadêmica e administrativa.
+
+Seria interessante se houvesse mais disciplinas focadas em **desenvolvimento seguro** e **gestão de sistemas críticos**, permitindo um aprofundamento maior para os alunos interessados nessa área. No geral, a visita foi uma experiência enriquecedora e contribuiu significativamente para minha compreensão sobre a **infraestrutura e segurança de sistemas institucionais**.
