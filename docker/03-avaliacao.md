@@ -14,7 +14,7 @@
   6. Configurar o arquivo Django de acesso ao repositório de dados para usar o serviço Docker `db`
   7. Testar o `docker-compose.yml`
   8. Relatar minimamente o que foi feito
-- **Entrega:** Cópia deste arquivo Markdown preenchido no repositório _fork_ de [sistemas-operacionais/2024.2](https://github.com/sistemas-operacionais/2024.2)
+
 
 ---
 
